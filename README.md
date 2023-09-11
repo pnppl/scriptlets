@@ -1,6 +1,9 @@
 dcpull.sh: dumps, sorts, and corrects contents of Argus DC1500 camera. Needs imagemagick and configured gphoto2.
 
-ipa.py: translates English International Phonetic Alphabet symbols into my own approximation of how to spell the sounds with a simple dictionary. Used this all the time before Wikipedia improved their pronunciation tips and I was always clicking on the IPA guide and doing this manually. Produces strings that are quite funny but get you surprisingly close to the right sound.
+ipa.py: translates English International Phonetic Alphabet symbols into my own approximation of how to spell the sounds with a simple dictionary. Used this all the time before Wikipedia improved their pronunciation tips and I was always clicking on the IPA guide and doing this manually. Produces strings that are quite funny but get you surprisingly close to the right sound:
+
+`$ ipa /ʃɜːrlɒk ˈhoʊmz/
+Pronunciation: **shurlok hohmz**`
 
 ipa.sh: three-line helper frontend for ipa.py.
 
